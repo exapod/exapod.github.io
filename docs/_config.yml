@@ -18,12 +18,14 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SparkFun Innoviation Kit
+title: SparkFun Electronics
+title_seperator: "-"
+subtitle: "SparkFun Innovation Kit - MicroPython"
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Hope of the SparkFun Innoviation Kit - MicroPython
+  Home of the SparkFun Innovation Kit - MicroPython
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://sparkfun.fun/" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://sparkfun.fun" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gigapod
 
 # Build settings
@@ -34,6 +36,35 @@ minimal_mistakes_skin    : "default"
 # minimal_mistakes_skin: "default"
 
 logo: "/assets/images/sfe-flame-88.png"
+
+
+
+plugins:
+  - jekyll-feed
+  - jekyll-include-cache
+
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+permalink: pretty
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
 
 defaults:
   # _posts
@@ -46,13 +77,13 @@ defaults:
       read_time: false
       share: false
       related: true
-
-
-plugins:
-  - jekyll-feed
-  - jekyll-include-cache
-
-
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
 
 # Exclude from processing.
 # The following items will not be processed, by default.
