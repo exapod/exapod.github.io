@@ -27,6 +27,8 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sparkfun.fun" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gigapod
+breadcrumbs: true  # disabled by default
+
 
 # Build settings
 # theme: minima
@@ -84,6 +86,14 @@ defaults:
     values:
       layout: single
       author_profile: false
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages 
+  - _posts
+
+encoding: "utf-8"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
