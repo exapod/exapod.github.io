@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: SparkFun Electronics
+title: SparkFun Inventor's Kit
 title_seperator: "-"
-subtitle: "SparkFun Innovation Kit - MicroPython"
+subtitle: "Online and Interactive MicroPython Exploration"
 email: 
 description: >- # this means to ignore newlines until "baseurl:"
-  Home of the SparkFun Innovation Kit - MicroPython
+  Home of the SparkFun Inventor's Kit - MicroPython
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://sparkfun.fun" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  gigapod
@@ -44,6 +44,7 @@ logo: "/assets/images/sfe-flame-88.png"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-target-blank
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
@@ -67,6 +68,21 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Site Footer
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/sparkfun"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/sparkfun"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/sparkfun"
+    - label: "youtube"
+      icon: "fab fa-fw fa-youtube-square"
+      url: "https://www.youtube.com/user/sparkfun"
 
 defaults:
   # _posts
@@ -81,33 +97,44 @@ defaults:
       related: true
   # _pages
   - scope:
-      path: "_pages"
+      path: ""
       type: pages
     values:
       layout: single
       author_profile: false
 
 # Reading Files
-include: [ "_posts", "_pages", "assets" ]
-
+include: 
+  - _pages
+  - _posts
+  - _includes
+  - _layouts
+  - _assets
+  - assets/images
+  
 encoding: "utf-8"
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - node_modules
+  - package.json
+  - Rakefile
+  - README
+  - tmp

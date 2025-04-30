@@ -4,18 +4,17 @@ permalink: /
 hidden: true
 header:
   overlay_color: "#5e616c"
-  overlay_image: /assets/images/mm-home-page-feature.jpg
+  overlay_image: /assets/images/sik-demo-home.png
   actions:
-    - label: "<i class='fas fa-download'></i> Install now"
-      url: "/docs/quick-start-guide/"
+    - label: "<i class='fas fa-external-link-square'></i> Need an SIK? Get one at SparkFun!"
+      url: "https://www.sparkfun.com/sparkfun-inventor-s-kit-v4-1-2.html"
 excerpt: >
-  A flexible two-column Jekyll theme. Perfect for building personal sites, blogs, and portfolios.<br />
-  <small><a href="https://github.com/mmistakes/minimal-mistakes/releases/tag/4.27.0">Latest release v4.27.0</a></small>
+  The SparkFun Inventor's Kit (SIK) is a great way to get started with programming and hardware interaction with MicroPython
 feature_row:
-  - image_path: /assets/images/mm-customizable-feature.png
-    alt: "customizable"
-    title: "Super customizable"
-    excerpt: "Everything from the menus, sidebars, comments, and more can be configured or set with YAML Front Matter."
+  - image_path: /assets/images/sik-demo-parts.png
+    alt: "The SIK"
+    title: "Get to Know the SIK"
+    excerpt: "From an powerful SparkFun RedBoard IOT, to a breadboard, the SIK has all the parts needed for 16 projects!"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
@@ -26,13 +25,13 @@ feature_row:
     url: "/docs/layouts/"
     btn_class: "btn--primary"
     btn_label: "Learn more"
-  - image_path: /assets/images/mm-free-feature.png
-    alt: "100% free"
-    title: "100% free"
-    excerpt: "Free to use however you want under the MIT License. Clone it, fork it, customize it... whatever!"
+  - image_path: /assets/images/sik-demo-project1.png
+    alt: "start your first project now"
+    title: "SIK Projects"
+    excerpt: "Interactive and on-line, the SIK includes 16 electronics projects that leverage MicroPython"
     url: "/docs/license/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"      
+    btn_label: "Get Started"      
 ---
 
 {% include feature_row %}
