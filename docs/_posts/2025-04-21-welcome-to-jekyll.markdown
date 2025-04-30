@@ -1,6 +1,6 @@
 ---
 layout: single
-title:  "I'm Born"
+title:  "I am Born"
 date:   2025-04-30 14:56:33 -0600
 ---
 
