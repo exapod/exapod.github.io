@@ -18,7 +18,7 @@ toc: false
 
 The SparkFun Inventor's Kit (SIK) is a great way to get started with programming and hardware interaction with the Arduino programming language. The SIK includes everything you need to complete five overarching projects of 16 interconnected circuits that teach everything from blinking an LED to reading sensors. The culminating project is your very own autonomous robot! No previous programming or electronics experience is required to use this kit.
 
-{% include gallery id="layouts_gallery" caption="The SIK, and several SIK Projects!." %}
+{% include gallery id="layouts_gallery" caption="The SIK, and several SIK Projects!" %}
 
 
 
