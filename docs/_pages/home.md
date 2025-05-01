@@ -28,7 +28,7 @@ feature_row:
   - image_path: /assets/images/sik-demo-project1.png
     alt: "start your first project now"
     title: "Innovative Projects"
-    excerpt: "Interactive and on-line, the SIK includes 16 electronics projects that leverage MicroPython"
+    excerpt: "With Interactive and on-line development, the SIK includes 16 electronics projects that leverage MicroPython"
     url: "/docs/license/"
     btn_class: "btn--primary"
     btn_label: "Get Started Today"      
