@@ -6,8 +6,8 @@ main:
     url: /docs/Projects/  
   - title: "About"
     url: /about/
-  - title: "SparkFun Electronics" "
-    url: https://www.sparkfun.com"
+  - title: "SparkFun Electronics" 
+    url: "https://www.sparkfun.com"
     target: _blank
   - title: "Terms &amp; Privacy Policy"
     url: /terms/
