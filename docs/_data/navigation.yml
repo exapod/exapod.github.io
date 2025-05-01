@@ -1,0 +1,13 @@
+# main links
+main:
+  - title: "Getting Started"
+    url: /docs/getting-started/
+  - title: "Projects"
+    url: /docs/Projects/  
+  - title: "About"
+    url: /about/
+  - title: "SparkFun Electronics" "
+    url: https://www.sparkfun.com"
+    target: _blank
+  - title: "Terms &amp; Privacy Policy"
+    url: /terms/
