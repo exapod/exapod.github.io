@@ -68,6 +68,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+search: true
+search_full_content: true
+search_provider: lunr
 # Site Footer
 footer:
   links:
