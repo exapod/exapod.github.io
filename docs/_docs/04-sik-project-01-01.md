@@ -97,7 +97,34 @@ polarity and have only one correct orientation, while others are nonpolarized.
 hookup table below to see how everything is connected.
 
 <figure>
-  <img src="{{ '/assets/images/sik-demo-prj1-ca-hookup-diag.png' | relative_url }}" alt="Hoopup Diagram">
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-hookup-diag.png' | relative_url }}" alt="Hookup Diagram">
 </figure>
 
-***NEXT Step*** Circuit 1B
+### Hookup Tables
+
+Many electronics beginners find it helpful to have a coordinate system when building their circuits. For each circuit, you’ll find a hookup table that lists the coordinates of each component or wire and where it connects to the RedBoard, the breadboard, or both. The breadboard has a letter/number coordinate system, just
+like the game Battleship.
+
+<figure>
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-ex.png ' | relative_url }}" alt="Hookup Diagram Example">
+</figure>
+
+…means one end of a component connects to digital pin 13 on your RedBoard and
+the other connects to J2 on the breadboard
+
+<figure>
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-table.png ' | relative_url }}" alt="Hookup Diagram">
+</figure>
+
+## Programming the RedBoard
+
+**TODO**: And note and link to project notebook...
+
+# You've Completed Circuit 1A!
+
+Continue to circuit 1B to learn about analog signals and potentiometers
+
+
+<figure>
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-next.png ' | relative_url }}" alt="Next - Circuit B">
+</figure>
