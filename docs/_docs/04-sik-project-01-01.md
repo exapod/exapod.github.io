@@ -1,5 +1,5 @@
 ---
-title: "SIK Project 1 Circuit 1A"
+title: "Project 1 - Circuit 1A: Blinking an LED"
 permalink: /docs/sik-project-01-A/
 excerpt: "Project 1 - Circuit 1A - Blinking an LED"
 toc: true
@@ -8,8 +8,6 @@ sidebar:
     nav: "docs"
 ---
 
-
-# Circuit 1A: Blinking an LED 
 
 You can find LEDs in just about any source of light, from the bulbs lighting your home
 to the tiny status lights flashing on your home electronics. Blinking an LED is the
@@ -120,7 +118,7 @@ the other connects to J2 on the breadboard
 
 **TODO**: And note and link to project notebook...
 
-# You've Completed Circuit 1A!
+## You've Completed Circuit 1A!
 
 Continue to circuit 1B to learn about analog signals and potentiometers
 

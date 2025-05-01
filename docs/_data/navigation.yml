@@ -3,7 +3,7 @@ main:
   - title: "Getting Started"
     url: /docs/getting-started/
   - title: "Projects"
-    url: /docs/Projects/  
+    url: /docs/sik-project-01/ 
   - title: "About"
     url: /about/
   - title: "SparkFun Electronics" 
@@ -33,35 +33,30 @@ docs:
         url: /docs/sik-project-01-C/
       - title: "Circuit 1D"
         url: /docs/sik-project-01-D/
-  - title: Content
+  - title: Project 2
     children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-  - title: Extras
+      - title: "Overview"
+        url: /docs/sik-project-02/
+      - title: "Circuit 2A"
+        url: /docs/sik-project-02-A/
+      - title: "Circuit 2B"
+        url: /docs/sik-project-02-B/
+      - title: "Circuit 2C"
+        url: /docs/sik-project-02-C/
+      - title: "Circuit 2D"
+        url: /docs/sik-project-02-D/
+  - title: Project 3
     children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "FAQ"
-        url: /docs/faq/
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+      - title: "Overview"
+        url: /docs/sik-project-03/
+      - title: "Circuit 3A"
+        url: /docs/sik-project-03-A/
+      - title: "Circuit 3B"
+        url: /docs/sik-project-03-B/
+      - title: "Circuit 3C"
+        url: /docs/sik-project-03-C/
+      - title: "Circuit 3D"
+        url: /docs/sik-project-03-D/
+      - title: "Circuit 3E"
+        url: /docs/sik-project-03-E/
+
