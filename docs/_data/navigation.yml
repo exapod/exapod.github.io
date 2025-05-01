@@ -19,12 +19,8 @@ docs:
     children:
       - title: "Getting Started"
         url: /docs/getting-started/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
+      - title: "Assembly"
+        url: /docs/sik-assembly/
   - title: Customization
     children:
       - title: "Configuration"

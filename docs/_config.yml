@@ -44,8 +44,18 @@ logo: "/assets/images/sfe-flame-88.png"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
+  - jekyll-paginate
+  - jekyll-sitemap
   # - jekyll-target-blank
-
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+  
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
@@ -87,6 +97,12 @@ footer:
       icon: "fab fa-fw fa-youtube-square"
       url: "https://www.youtube.com/user/sparkfun"
 
+# Collections
+collections:
+  docs:
+    output: true
+    permalink: /:collection/:path/
+    
 defaults:
   # _posts
   - scope:
