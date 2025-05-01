@@ -17,14 +17,14 @@ feature_row:
     excerpt: "From an powerful SparkFun RedBoard IOT, to a breadboard, the SIK has all the parts needed for 16 projects!"
     url: "/docs/configuration/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
-  - image_path: /assets/images/mm-responsive-feature.png
-    alt: "fully responsive"
-    title: "Responsive layouts"
-    excerpt: "Built with HTML5 + CSS3. All layouts are fully responsive with helpers to augment your content."
+    btn_label: "Setup the SIK"
+  - image_path: /assets/images/sik-demo-pythonnotebook.png
+    alt: "fully interactive"
+    title: "Interactive Development"
+    excerpt: "The SIK delviers hands-on project construction and interactive, notebook-based MicroPython development."
     url: "/docs/layouts/"
     btn_class: "btn--primary"
-    btn_label: "Learn more"
+    btn_label: "Learn the Tools"
   - image_path: /assets/images/sik-demo-project1.png
     alt: "start your first project now"
     title: "Innovative Projects"
