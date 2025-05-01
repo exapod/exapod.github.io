@@ -15,7 +15,7 @@ feature_row:
     alt: "The SIK"
     title: "Get to Know the SIK"
     excerpt: "From an powerful SparkFun RedBoard IOT, to a breadboard, the SIK has all the parts needed for 16 projects!"
-    url: "/docs/configuration/"
+    url: "/docs/getting-started/"
     btn_class: "btn--primary"
     btn_label: "Setup the SIK"
   - image_path: /assets/images/sik-demo-pythonnotebook.png
