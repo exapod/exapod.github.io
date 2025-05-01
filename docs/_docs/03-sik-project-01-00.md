@@ -1,5 +1,5 @@
 ---
-title: "SIK Assembly"
+title: "SIK Project 1"
 permalink: /docs/sik-project-01/
 excerpt: "SparkFun Inventor's Kit - Project 1 "
 toc: true

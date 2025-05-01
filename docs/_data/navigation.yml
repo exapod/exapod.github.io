@@ -25,16 +25,14 @@ docs:
     children:
       - title: "Overview"
         url: /docs/sik-project-01/
-      - title: "SIK Project 1"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
+      - title: "Circuit 1A"
+        url: /docs/sik-project-01-A/
+      - title: "Circuit 1B"
+        url: /docs/sik-project-01-B/
+      - title: "Circuit 1C"
+        url: /docs/sik-project-01-C/
+      - title: "Circuit 1D"
+        url: /docs/sik-project-01-D/
   - title: Content
     children:
       - title: "Working with Posts"
