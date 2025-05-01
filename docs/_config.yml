@@ -44,7 +44,7 @@ logo: "/assets/images/sfe-flame-88.png"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
-  - jekyll-target-blank
+  # - jekyll-target-blank
 
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
