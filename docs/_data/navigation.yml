@@ -21,11 +21,11 @@ docs:
         url: /docs/getting-started/
       - title: "Assembly"
         url: /docs/sik-assembly/
-  - title: Customization
+  - title: Project 1
     children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
+      - title: "Overview"
+        url: /docs/sik-project-01/
+      - title: "SIK Project 1"
         url: /docs/overriding-theme-defaults/
       - title: "Navigation"
         url: /docs/navigation/
