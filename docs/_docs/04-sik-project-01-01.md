@@ -118,6 +118,12 @@ the other connects to J2 on the breadboard
 
 **TODO**: And note and link to project notebook...
 
+### Jupyter Notebook version
+
+Example of a Jupyter Notebook of this page, plus code is available here:
+
+[Project One, Circuit A Notebook](https://gigapod.dev/jupyter-lite-micropython/lab/index.html?path=SIK_Project1_CircuitA_Full.ipynb)
+
 ## You've Completed Circuit 1A!
 
 Continue to circuit 1B to learn about analog signals and potentiometers
