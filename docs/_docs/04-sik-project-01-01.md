@@ -104,14 +104,14 @@ Many electronics beginners find it helpful to have a coordinate system when buil
 like the game Battleship.
 
 <figure>
-  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-ex.png ' | relative_url }}" alt="Hookup Diagram Example">
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-ex.png' | relative_url }}" alt="Hookup Diagram Example">
 </figure>
 
 …means one end of a component connects to digital pin 13 on your RedBoard and
 the other connects to J2 on the breadboard
 
 <figure>
-  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-table.png ' | relative_url }}" alt="Hookup Diagram">
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-hu-table.png' | relative_url }}" alt="Hookup Diagram">
 </figure>
 
 ## Programming the RedBoard
@@ -124,5 +124,5 @@ Continue to circuit 1B to learn about analog signals and potentiometers
 
 
 <figure>
-  <img src="{{ '/assets/images/sik-demo-prj1-ca-next.png ' | relative_url }}" alt="Next - Circuit B">
+  <img src="{{ '/assets/images/sik-demo-prj1-ca-next.png' | relative_url }}" alt="Next - Circuit B">
 </figure>
