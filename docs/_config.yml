@@ -97,6 +97,8 @@ footer:
       icon: "fab fa-fw fa-youtube-square"
       url: "https://www.youtube.com/user/sparkfun"
 
+enable_copy_code_button: true
+
 # Collections
 collections:
   docs:

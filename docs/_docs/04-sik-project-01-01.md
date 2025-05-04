@@ -4,6 +4,16 @@ permalink: /docs/sik-project-01-A/
 excerpt: "Project 1 - Circuit 1A - Blinking an LED"
 toc: true
 toc_sticky: true
+tool_gallery:
+  - url: https://thonny.org
+    image_path: /assets/images/thonny_logo.png
+    alt: "Thonny"
+  - url: https://www.jetbrains.com/pycharm/
+    image_path: /assets/images/pycharm-logo.png
+    alt: "PyCharm"
+  - url: https://docs.micropython.org/en/latest/reference/mpremote.html
+    image_path: /assets/images/micropython_logo.png
+    alt: "mpremote command"
 sidebar:
     nav: "docs"
 ---
@@ -116,13 +126,77 @@ the other connects to J2 on the breadboard
 
 ## Programming the RedBoard
 
-**TODO**: And note and link to project notebook...
+The SparkFun RedBoard IoT is programmed using MicroPython and this project uses MicroPython commands to blink the LED just created circuit.  Before this is possible, a MicroPython tool is needed to communcate with the ReadBoard.
 
-### Jupyter Notebook version
+### Selecting a MicroPython Tool
 
-Example of a Jupyter Notebook of this page, plus code is available here:
+The first step to enter commands on the RedBoard is to select a tool that allows direct interaction with MicroPython. 
 
-[Project One, Circuit A Notebook](https://gigapod.dev/jupyter-lite-micropython/lab/index.html?path=SIK_Project1_CircuitA_Full.ipynb)
+While a variety of methods exist to communicate with the RedBoard, the following tools are the most popular: Thonny, PyCharm and the command `mpremote`.
+
+{% include gallery id="tool_gallery" caption="MicroPython Tools: **Thonny**, **PyCharm** and **mpremote**" %}
+
+Once you select and install a tool, make sure your RedBoard is connected to your computer, and the micropython tool is connected to the RedBoard. Once connected, you should have access to the MicroPython REPL command line.
+
+### Entering MicroPython Commands
+
+#### Step 1 - Setup
+
+To blink the LED, we need to enable the board pin **34** (the pin that the LED is connected to in the circuit).  
+
+To do this we **load the Pin definition for the board**
+
+```python
+from machine import Pin
+```
+Now **create a Pin variable for the LED pin, number 13**. Also define it as an **output pin**, so we can turn it on and off
+
+```python
+led_pin = Pin(34, Pin.OUT)
+```
+We turn the LED on by setting the pin value to **high** or on
+
+```python
+led_pin.high()
+```
+And to turn the LED off, we set the pin to **low**
+
+```python
+led_pin.low()
+```
+To *blink* the LED, we can turn it on, wait a period of time and then turn it off. This is done by sleeping between the **on** and **off** commands. 
+
+To do this in MicroPython, we need a sleep function. Let's load the **sleep** function, which will sleep for a number of seconds..
+
+```python
+from time import sleep
+```
+Now lets blink the LED - sleeping for 1 second between turning the LED on and off
+
+```python
+led_pin.high()
+sleep(1)
+led_pin.low()
+sleep(1)
+led_pin.high()
+sleep(1)
+led_pin.low()
+```
+Now we have blinked the LED! 
+
+Now we'll present the idea of a **for loop**. A loop repeats a statement for a number of specified times. 
+
+To blink our LED 10 times, use the following command:
+
+```python
+for i in range(10):
+    led_pin.high()
+    sleep(1)
+    led_pin.low()
+    sleep(1)
+```
+
+When this command runs, it blinks the LED 10 times by setting the LED high, then low and sleeping inbetween each step. 
 
 ## You've Completed Circuit 1A!
 
@@ -132,3 +206,10 @@ Continue to circuit 1B to learn about analog signals and potentiometers
 <figure>
   <img src="{{ '/assets/images/sik-demo-prj1-ca-next.png' | relative_url }}" alt="Next - Circuit B">
 </figure>
+
+
+### There is another way -- Jupyter Notebook version
+
+Example of a Jupyter Notebook of this page, plus code is available here:
+
+[Project One, Circuit A Notebook](https://gigapod.dev/jupyter-lite-micropython/lab/index.html?path=SIK_Project1_CircuitA_Full.ipynb)
